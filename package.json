@@ -1,0 +1,23 @@
+{
+  "name": "json_check",
+  "version": "1.0.0",
+  "description": "Check JSON according to AVRO schema",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steviee",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.49.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "avsc": "^5.7.7"
+  }
+}
